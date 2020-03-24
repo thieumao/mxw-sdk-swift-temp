@@ -15,10 +15,9 @@ public class Wallet {
     //    func getProvider() {
     //        return
     //    }
-    //
     
     func getAddress() -> String {
-        return ""
+        return Address().getAddress(address: <#T##String#>)
     }
     
     func getHexAddress() -> String {
@@ -48,6 +47,10 @@ public class Wallet {
     }
     
     func sign() {
+        
+    }
+    
+    func transfer() {
         
     }
     
